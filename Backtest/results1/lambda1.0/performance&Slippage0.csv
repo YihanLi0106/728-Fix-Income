@@ -1,0 +1,2 @@
+begin,end,slippage,initCap,stddev(annual),sharpe,calmar,absReturn,annualReturn,maxDrawdown,dataVersion,win,winLoss
+2022-09-23,2022-12-30,0,100000000.0,0.001679,-0.723873,-1.480712,-0.000326,-0.001214,0.00082,2024-04-25,0.39705882352941174,1.3424109809625941

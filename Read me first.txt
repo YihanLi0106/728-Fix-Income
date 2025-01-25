@@ -1,0 +1,7 @@
+The main part of the optimization codes are in the folder robust_bond_portfolio-main.
+These codes can generate different portfolio holdings for different lambda value.
+
+The codes for verification of worst-case efficiency are in the folder of the corresponding name. It is a ipynb format file and the data used is in the same folder.
+
+The codes for backtest are in the Backtest folder. The file getData.py is a crawler program that get the bond price history from a website called cbonds. However, it may not be able to run successfully because the cookie of that website change time from time. We need to generate valid cookie to run it. We already saved the data locally and processed it. The history data is saved in a pickle file. Therefore, a specific python version of 3.11 is required to load that data. But you can run portfolio.py to recreate that file to solve that problem.
+If you want to get the backtest result in our report. You only need to run backtest.py and analysis.py. The other py files are imported into those two files so make sure they are in the same directory.
